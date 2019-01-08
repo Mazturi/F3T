@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans:400,500,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-btn input, .custom-btn {
+  padding: 0 2em !important;
+  height: 42px;
+  border-radius: 21px !important;
+}
+
+.custom-btn i {
+  right: 40px !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui.menu {
+  margin-bottom: 0 !important;
+}
+
+.ui.menu:after {
+  display: none !important;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.wrap a:first-of-type{
+  background: linear-gradient(to right, #7474bf, #348ac7) !important;
+  color: #fff !important;
+}
+
+.ui.inverted.menu {
+  border-bottom: none !important;
+}
+.stackable.menu{
+  display: flex !important;
+  padding: 0.25em 6em !important;
+  /* justify-content: space-around !important; */
+}
+.secondary.menu{
+  border: none !important;
+}
+.ui.menu .item>.input {
+  width: 100% !important;
+  background: transparent !important;
+}
+.search-box{
+  margin: 0 auto 0 23% !important;
+}
+.ui.menu .item>.input input {
+  width: 350px !important;
+}
+
+.logo>a>h3 {
+  letter-spacing: 0.1em;
+  margin: 0 !important;
+}
+
+.secondary.menu a {
+  text-transform: uppercase !important;
+}
+.ui.inverted.segment {
+  display: flex;
+  justify-content: center;
+  margin-top: 0 !important;
+  border-radius: 0;
+  padding: 0;
+  border: none !important;
+  background: linear-gradient(to right, #7474bf, #348ac7) !important;
+  border: none !important;
+}
